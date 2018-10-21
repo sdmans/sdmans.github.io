@@ -109,8 +109,8 @@ div.container-fluid {
 
 .shortcuts > p > a:hover {
   font-size: 20px;
-  color: #37b289;
-  /* color: #013220; */
+  /* color: #37b289; */
+  color: #013220;
   text-decoration: none;
   /* text-decoration: underline dotted; */
 }
@@ -151,9 +151,9 @@ div.container-fluid {
 
 i.fab:hover {
   font-size: 26px;
-  color: #013220
+  /* color: #013220 */
   /* color: #000099; */
-  /* color: #006600; */
+  color: #006600;
 }
 
 ul.social-icons > li {
