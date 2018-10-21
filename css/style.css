@@ -1,0 +1,424 @@
+ /*Bootstrap Specific Styles */
+ .col-md-4 > ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+/* General Styles */
+
+a {
+  /* color: #3c3c95; */
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  width: 60%;
+  /* Fallbacks for css. Source: https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
+  color: black;
+  border-color: black;
+  background-color: black;
+
+}
+header {
+  padding-top: 30px;
+}
+
+div.container-fluid {
+  padding: 10px 0px 30px 0px;
+  background-color: #b0d4e8;
+  /* background-color: #003399; */
+  /* color: white; */
+}
+
+.container.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content > * {
+ text-align: center;
+}
+
+.myself {
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  margin: 15px 15px;
+}
+
+.my-title {
+  font-size: 20px;
+  font-weight: 2em;
+}
+
+.motivator {
+  color: #fff;
+}
+
+/* Nav item styles start here */
+
+.navbar-brand {
+  color: black;
+  padding-right: 80px;
+}
+
+.navbar-btn {
+  height: 36px;
+  width: 80px;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+/* Nav Styles end here */
+
+
+/* Links to sections of main page with heights so that content appears correctly */
+
+.shortcuts {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.shortcuts > button.anchor-btn {
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  width: 170px;
+  margin: 10px 0px 10px 0px;
+}
+
+.shortcuts > p {
+  padding: 10px 0px 20px 0px;
+}
+
+.shortcuts > p > a {
+  font-weight: 1em;
+  font-size: 18px;
+  color: #4b4f4f;
+}
+
+.shortcuts > p > a:hover {
+  font-size: 20px;
+  color: #37b289;
+  /* color: #013220; */
+  text-decoration: none;
+  /* text-decoration: underline dotted; */
+}
+
+#portfolio {
+  height: 40px;
+}
+
+#experience {
+  height: 40px;
+}
+
+#contact {
+  height: 40px;
+}
+
+/* Styles for social media article element */
+
+.social {
+  padding-top: 10px;
+  border-top-width: 50%;
+}
+
+.social-icons {
+  padding: 0px;
+}
+
+.skill-icon {
+  font-size: 50px;
+  padding: 24px;
+}
+
+/* Controls size of social media icons */
+.fab {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+i.fab:hover {
+  font-size: 26px;
+  color: #013220
+  /* color: #000099; */
+  /* color: #006600; */
+}
+
+ul.social-icons > li {
+  /* display: inline-block; */
+  padding-top: 10px;
+}
+
+/* Social Media Ends */
+
+/*CSS for sections that divide content */
+
+nav {
+  text-align: center;
+  /* height: 50px;
+  border: 1px solid lemonchiffon;
+  margin: 0px 0px 10px 0px;
+  padding: 0px; */
+}
+
+/*Changing navbar-default background-color to white*/
+
+.navbar-default {
+  background-color: #fff;
+}
+
+.intro {
+  text-align: center;
+  /* border: 1px solid blue; */
+  /* margin: 0px 0px 10px 0px; */
+  padding: 20px 0px 0px 0px;
+}
+
+.skills2paybills {
+  /* border: 1px solid yellow; */
+  /* background: #353839; */
+  /* border-top: 1px solid #F0F0F0; */
+  padding: 10px 0px 0px 0px;
+}
+
+.portfolio {
+  /* border: 1px solid rgb(0, 213, 192); */
+  /* border-top: 1px solid #F0F0F0; */
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.experience {
+  /* border: 1px solid green; */
+  /* background: #353839; */
+  /* border-top: 1px solid #F0F0F0; */
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+footer {
+  /* border: 1px solid purple; */
+  /* border-top: 1px solid #F0F0F0; */
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 40px 0px;
+}
+
+/* Section styles end here */
+
+
+/* Style for portfolio items */
+.port-item > p {
+  text-align: center;
+}
+
+.notify-icon {
+  font-size: 24px;
+}
+
+.notify {
+  color: #b30000;
+  /* font-weight: bold; */
+}
+
+.micro {
+  padding: 15px;
+}
+
+.micro > p {
+  font-weight: bold;
+}
+
+.about-text {
+  /* color: teal; */
+  font-size: 18px;
+  padding: 10px 80px 10px 80px;
+}
+
+/* Skills and Tools section */
+.skills {
+  text-align: center;
+}
+
+.skill-list > li {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+/* Skills and Tools ends here */
+/* Portfolio styles */
+
+div.thumbnail {
+  border: none;
+}
+
+div.thumbnail:hover {
+  border: .5px solid #d3d3d3;
+}
+
+/* Portfolio styles end here */
+
+
+/* Experience element styles start*/
+.experience > div > ul {
+  width: 80%;
+  padding: 0px 0px 20px 0px;
+  margin: 0 auto;
+}
+
+ul.list-group > li {
+  margin-bottom: 24px;
+}
+
+.work-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.work-description {
+  font-size: 16px;
+}
+
+/* Experience element styles end here */
+
+
+/* Contact Form Styles */
+
+.contact {
+  font-size: 18px;
+}
+
+.contact > h2 {
+  text-align: center;
+}
+
+.contact-form {
+  /* border: 1px solid blue; */
+  width: 90%;
+  margin: 0 auto;
+}
+
+section.contact > label, input, textarea {
+  display: block;
+}
+
+label {
+  margin-top: 10px;
+}
+
+.input-group {
+  margin: 0 auto;
+}
+
+.input-group > input {
+  width: 400px;
+  height: 42px;
+}
+
+textarea {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+/* Contact form styles end */
+
+/* Copyright Style */
+.copyright {
+  text-align: center;
+}
+
+/* CSS for User interaction */
+li.nav-item:hover {
+  border: .25px solid #D3D3D3;
+  /* padding: 0px; */
+}
+
+/* Media Queries
+Small devices (tablets, 768px and up)
+Medium devices (desktops, 992px and up)
+Large devices (large desktops, 1200px and up)
+*/
+
+/* Skills and Tools
+- Fix padding for listed skills at max length */
+
+/* Portfolio
+- Fix image margins
+*/
+@media (max-width: 992px) {
+  .port-item > img {
+    padding: 10px 10px;
+  }
+
+}
+
+/* Custom media query for social icons */
+@media (min-width: 600px ) {
+  ul.social-icons > li {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .about-text {
+    padding: 0px 30px 10px 30px;
+    font-size: 18px;
+  }
+
+  .shortcuts > p {
+    padding: 16px 0px 16px 0px;
+  }
+
+  .shortcuts > h3 {
+    margin-bottom: 16px;
+  }
+
+  .myself {
+    width: 220px;
+    height: 220px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+  ul.social-icons > li {
+    padding-top: 40px;
+  }
+
+  .input-group > input {
+    width: 300px;
+    height: 42px;
+  }
+
+  textarea {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .experience {
+    /* padding: 10px; */
+  }
+
+  hr {
+    display: none;
+  }
+
+  .fab {
+    font-size: 26px;
+  }
+
+}
