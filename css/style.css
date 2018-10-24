@@ -7,8 +7,9 @@
 /* General Styles */
 
 a {
-  /* color: #3c3c95; */
   color: black;
+  /* color: #3c3c95; */
+  /* color: #37b289; */
   font-weight: bold;
 }
 
@@ -238,6 +239,10 @@ footer {
 
 .micro > p {
   font-weight: bold;
+}
+
+.micro > p > a {
+  color: #37b289;
 }
 
 .about-text {
