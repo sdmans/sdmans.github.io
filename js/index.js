@@ -5,6 +5,35 @@ $(document).ready(function(){
   const input = $('div.input-group > input, textarea');
   const shortcutBtn = $('button.anchor-btn');
   const anchorLinks = $('p.anchor');
+  const topButton = $('button.fixed-top-btn');
+
+
+  /*Logic for top scroll button */
+  /* Create functions that add or remove buttons */
+  const displayBtn =  function() {
+    topButton.css("display", "block")
+  }
+
+  const removeBtn = function() {
+    topButton.css("display", "none");
+  }
+
+  /*Source for function below https://stackoverflow.com/questions/17441065/how-to-detect-scroll-position-of-page-using-jquery */
+  $(window).scroll(function(){
+    /* Code below checks for position and stores it in height variable */
+    let height = $(window).scrollTop();
+    if (height > 1) {
+      displayBtn();
+    } else if (height === 0) {
+      removeBtn();
+    }
+  });
+
+  topButton.click(function(){
+  });
+
+  /* Top scroll button ends here */
+
 
 anchorLinks.fadeOut();//Links fade out at the beginning
 
