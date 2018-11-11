@@ -36,7 +36,7 @@ header {
 
 div.container-fluid {
   padding: 10px 0px 30px 0px;
-  background-color: #b0d4e8;
+  /* background-color: #b0d4e8; */
   /* background-color: #003399; */
   /* color: white; */
 }
@@ -292,7 +292,7 @@ div.thumbnail {
 }
 
 div.thumbnail:hover {
-  border: .5px solid #d3d3d3;
+  /* border: .5px solid #d3d3d3; */
 }
 
 /* Portfolio styles end here */
