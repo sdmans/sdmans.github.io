@@ -89,10 +89,15 @@ div.container-fluid {
 }
 
 /* Nav item styles start here */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
 
 .navbar-brand {
   color: black;
   padding-right: 80px;
+  margin-right: -240px;
 }
 
 .navbar-btn {
