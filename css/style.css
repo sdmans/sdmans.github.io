@@ -89,6 +89,7 @@ div.container-fluid {
 }
 
 /* Nav item styles start here */
+/* Source for this recent change */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
