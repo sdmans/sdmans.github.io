@@ -10,7 +10,6 @@ a {
   color: black;
   /* color: #3c3c95; */
   /* color: #37b289; */
-  font-weight: bold;
 }
 
 p {
@@ -241,7 +240,7 @@ footer {
   /* border: 1px solid purple; */
   /* border-top: 1px solid #F0F0F0; */
   margin: 0px 0px 10px 0px;
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 /* Section styles end here */
