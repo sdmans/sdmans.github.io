@@ -1,4 +1,4 @@
- /*Bootstrap Specific Styles */
+/*Bootstrap Specific Styles */
  .col-md-4 > ul {
   list-style-type: none;
   padding: 0px;
@@ -6,11 +6,19 @@
 
 /* General Styles */
 
+
+/* Anchor Tag Styles */
 a {
   color: black;
   /* color: #3c3c95; */
   /* color: #37b289; */
 }
+
+.site-link {
+ font-weight: bold;
+}
+
+/* Anchor Tag Styles end */
 
 p {
   padding: 0;
@@ -29,6 +37,7 @@ hr {
   background-color: black;
 
 }
+
 header {
   padding-top: 30px;
 }
@@ -296,10 +305,6 @@ div.thumbnail {
   border: none;
 }
 
-div.thumbnail:hover {
-  /* border: .5px solid #d3d3d3; */
-}
-
 /* Portfolio styles end here */
 
 
@@ -389,6 +394,13 @@ Large devices (large desktops, 1200px and up)
 /* Portfolio
 - Fix image margins
 */
+/* For Views larger than 768px */
+@media (min-width: 768px) {
+  .nav-item {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 992px) {
   .port-item > img {
     padding: 10px 10px;
