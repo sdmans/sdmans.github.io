@@ -248,7 +248,7 @@ nav {
 footer {
   /* border: 1px solid purple; */
   /* border-top: 1px solid #F0F0F0; */
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
 
@@ -337,10 +337,6 @@ ul.list-group > li {
   font-size: 18px;
 }
 
-.contact > h2 {
-  text-align: center;
-}
-
 .contact-form {
   /* border: 1px solid blue; */
   width: 90%;
@@ -352,6 +348,7 @@ section.contact > label, input, textarea {
 }
 
 label {
+  /* text-align: center; */
   margin-top: 10px;
 }
 
@@ -360,11 +357,13 @@ label {
 }
 
 .input-group > input {
+  text-align: center;
   width: 400px;
   height: 42px;
 }
 
 textarea {
+  text-align: center;
   height: 200px;
   margin-bottom: 20px;
 }
@@ -452,10 +451,6 @@ Large devices (large desktops, 1200px and up)
     height: 200px;
     width: 300px;
     margin-bottom: 20px;
-  }
-
-  .experience {
-    /* padding: 10px; */
   }
 
   hr {
