@@ -373,6 +373,7 @@ textarea {
 /* Copyright Style */
 .copyright {
   text-align: center;
+  margin: 14px;
 }
 
 /* CSS for User interaction */
