@@ -6,12 +6,23 @@ $(document).ready(function(){
   const shortcutBtn = $('button.anchor-btn');
   const anchorLinks = $('p.anchor');
   const topButton = $('button.fixed-top-btn');
+  const introSection = $('section.intro');
 
+  /* If you click on the top intro section, it will check if the hamburger navbar is open and click to close if it is */
+  introSection.click(function() {
+    if(collapsingDiv.hasClass('in')) {
+      /* Clicks and returns when criteria is met */
+    navButton.trigger('click');
+    return;
+    } else {
+      return;
+    }
+  })
 
-  /*Logic for top scroll button */
+  /* Logic for top scroll button */
   /* Create functions that add or remove buttons */
   const displayBtn =  function() {
-    topButton.css("display", "block")
+    topButton.css("display", "block");
   }
 
   const removeBtn = function() {
@@ -23,17 +34,12 @@ $(document).ready(function(){
     /* Code below checks for position and stores it in height variable */
     let height = $(window).scrollTop();
     if (height > 1) {
+      /* Toggle topButton class so that the button is either displayed or removed based on position */
       displayBtn();
     } else if (height === 0) {
       removeBtn();
     }
-  });
-
-  topButton.click(function(){
-  });
-
-  /* Top scroll button ends here */
-
+  });// Top scroll button functionality ends here
 
 anchorLinks.fadeOut();//Links fade out at the beginning
 
@@ -46,9 +52,9 @@ anchorLinks.fadeOut();//Links fade out at the beginning
       navButton.trigger('click');
       return;
     }
- }//nav click function ends
+ }
 
-/*When you scroll the code below runs */
+/* When you scroll the code below runs */
     $(window).scroll(changeClass)
 
  })//navButton Click event ends
@@ -67,8 +73,7 @@ anchorLinks.fadeOut();//Links fade out at the beginning
      anchorLinks.fadeIn();
      shortcutBtn.toggleClass('begone-anchors');
    }
-
- })
+ })//shortcut anchor link display function ends here.
 
 
 
