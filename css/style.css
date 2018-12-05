@@ -79,14 +79,14 @@ div.container-fluid {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 8px;
+  right: 10px;
   z-index: 99;
   font-size: 24px;
   border: none;
   outline: none;
   background-color: #375c96;
   color: white;
-  opacity: 0.2;
+  opacity: 0.5;
   cursor: pointer;
   padding: 10px;
   border-radius: 4px;
@@ -97,7 +97,6 @@ div.container-fluid {
 }
 
 /* Nav item styles start here */
-/* Source for this recent change */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -328,6 +327,10 @@ ul.list-group > li {
   font-size: 16px;
 }
 
+small {
+ color: #505050
+}
+
 /* Experience element styles end here */
 
 
@@ -378,8 +381,11 @@ textarea {
 
 /* CSS for User interaction */
 li.nav-item:hover {
-  border: .25px solid #D3D3D3;
+  /* border: .25px solid #D3D3D3; */
+  /* background: #E8E8E8 */
   /* padding: 0px; */
+  font-weight: bold;
+  font-size: 17px;
 }
 
 /* Media Queries
@@ -460,6 +466,14 @@ Large devices (large desktops, 1200px and up)
 
   .fab {
     font-size: 26px;
+  }
+
+  .nav-item {
+    font-size: 16px;
+  }
+
+  li.nav-item:hover {
+    font-weight: normal;
   }
 
 }
