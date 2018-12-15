@@ -35,7 +35,6 @@ hr {
   color: black;
   border-color: black;
   background-color: black;
-
 }
 
 header {
@@ -67,7 +66,7 @@ div.container-fluid {
 
 .my-title {
   font-size: 20px;
-  font-weight: 2em;
+  font-weight: normal;
 }
 
 .motivator {
@@ -134,20 +133,18 @@ div.container-fluid {
 }
 
 .shortcuts > p {
-  padding: 10px 0px 20px 0px;
+  padding: 10px 0px 24px 0px;
 }
 
 .shortcuts > p > a {
-  font-weight: 1em;
   font-size: 18px;
   color: #4b4f4f;
 }
 
 .shortcuts > p > a:hover {
-  font-size: 20px;
-  /* color: #37b289; */
-  color: #013220;
   text-decoration: none;
+  font-weight: bold;
+  /* color: #013220; */
   /* text-decoration: underline dotted; */
 }
 
@@ -182,14 +179,15 @@ div.container-fluid {
 /* Controls size of social media icons */
 .fab {
   font-size: 24px;
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 
 i.fab:hover {
-  font-size: 26px;
+  font-size: 24px;
+  font-weight: bold;
   /* color: #013220 */
   /* color: #000099; */
-  color: blue;
+  /* color: blue; */
 }
 
 ul.social-icons > li {
@@ -371,6 +369,12 @@ textarea {
   margin-bottom: 20px;
 }
 
+.form-button {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+}
+
 /* Contact form styles end */
 
 /* Copyright Style */
@@ -388,7 +392,7 @@ li.nav-item:hover {
   font-size: 17px;
 }
 
-/* Media Queries
+/* Boostrap Media Query Details
 Small devices (tablets, 768px and up)
 Medium devices (desktops, 992px and up)
 Large devices (large desktops, 1200px and up)

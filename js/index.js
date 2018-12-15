@@ -7,6 +7,7 @@ $(document).ready(function(){
   const anchorLinks = $('p.anchor');
   const topButton = $('button.fixed-top-btn');
   const introSection = $('section.intro');
+  const contactForm = $('.contact-form');
 
   /* If you click on the top intro section, it will check if the hamburger navbar is open and click to close if it is */
   introSection.click(function() {
@@ -77,6 +78,8 @@ anchorLinks.fadeOut();//Links fade out at the beginning
 
 
 
+
+
 /* Clear placeholder text when user clicks into the textbox and add it when they exit it*/
  input.focus(function(){
    const placeholderText = this.placeholder;
@@ -84,6 +87,22 @@ anchorLinks.fadeOut();//Links fade out at the beginning
     input.blur(function(){
      this.placeholder = placeholderText;
    })
- })
+ });
+
+ /* Prevent contact form from resetting and  */
+contactForm.submit(function(e){
+  e.preventDefault();
+  console.log('Submitting form...');
+  /* Stores values to message object and console log it */
+  const message = {
+    name: contactForm[0].elements[0].value, 
+    email: contactForm[0].elements[1].value,
+    subject: contactForm[0].elements[2].value,
+    message: contactForm[0].elements[3].value
+  };
+
+  console.log(message);
+
+})
 
 })//document.ready ends

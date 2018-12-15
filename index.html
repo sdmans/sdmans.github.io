@@ -262,27 +262,28 @@
   <h2>Contact Me</h2>
   <p>This form is just for show, it hasn't been been implemented.</p> 
   <p>Contact me on <a class="site-link" href="https://www.linkedin.com/in/sam-mans-3b89603b/" target="_blank">LinkedIn!</a></p>
-<div class="contact-form">
+  <form class="contact-form">
     <div class="input-group">
       <label for="text">Name*</label>
-      <input type="text" placeholder="What's your name?" aria-describedby="basic-addon1">
+      <input required type="text" placeholder="What's your name?" aria-describedby="basic-addon1">
     </div>
 
     <div class="input-group">
       <label for="email">Email*</label>
-      <input type="text" placeholder="What's your email?">
+      <input required type="text" placeholder="What's your email?">
     </div>
 
     <div class="input-group">
         <label for="subject">Subject*</label>
-        <input type="text" placeholder="What did you want to discuss?">
+        <input required type="text" placeholder="What did you want to discuss?">
       </div>
 
     <div class="input-group">
       <label for="message">Message*</label>
       <textarea required name="message" id="text-body" cols="42" rows="30" placeholder="Type your message here!"></textarea>
     </div>
-  </div>
+    <button class="btn btn-primary form-button">Submit</button>
+</form>
 
     </section>
     <section class="copyright">&copy; Sam Mans 2018</section>
