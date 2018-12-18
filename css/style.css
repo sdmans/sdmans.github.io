@@ -302,6 +302,29 @@ div.thumbnail {
   border: none;
 }
 
+a.project-link:hover {
+  text-decoration: none;
+}
+
+.tool-header {
+  font-size: 20px;
+}
+
+.tool-list {
+  margin-top: 10px;
+}
+
+.tool-item {
+  display: inline-block;
+  width: 110px;
+  height: 30px;
+  padding: 6px;
+  margin: 2px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+
 /* Portfolio styles end here */
 
 
