@@ -344,6 +344,10 @@ ul.list-group > li {
   font-size: 18px;
 }
 
+.work-title > a:hover {
+  text-decoration: none;
+}
+
 .work-description {
   font-size: 16px;
 }
