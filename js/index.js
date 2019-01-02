@@ -8,6 +8,7 @@ $(document).ready(function(){
   const topButton = $('button.fixed-top-btn');
   const introSection = $('section.intro');
   const contactForm = $('.contact-form');
+ 
 
   /* If you click on the top intro section, it will check if the hamburger navbar is open and click to close if it is */
   introSection.click(function() {
@@ -18,7 +19,7 @@ $(document).ready(function(){
     } else {
       return;
     }
-  })
+  });
 
   /* Logic for top scroll button */
   /* Create functions that add or remove buttons */

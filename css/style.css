@@ -5,7 +5,10 @@
 }
 
 /* General Styles */
-
+/* Feature below is for smooth scrolling. Courtesy of CSS-Tricks https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Anchor Tag Styles */
 a {
