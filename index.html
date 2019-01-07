@@ -13,7 +13,7 @@
 
 <body>
 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
 
     <div class="navbar-header">
@@ -55,11 +55,12 @@
   <!-- <h1>My Portfolio Site</h1> -->
     <img class="myself" src="img/sam-profile.jpeg" alt="placeholder image">
 
-    <h2 class="">Sam Mans<h2>
-      <p class="my-title">Aspiring Web Developer from Washington, DC</span></p>
+    <h2>Sam Mans</h2>
+      <p class="my-title">Aspiring Web Developer from Washington, DC</p>
       <hr>
       <!-- Testing Out Social Media icons here! -->
       <article class="social">
+        <h2>Learn More About Me!</h2>
         <ul class="social-icons">
           <li class="social-items"><a href="https://github.com/SMGEAR123" target="_blank"><i class="fab fa-github-alt"> &nbsp;GitHub</i></a></li>
           <li class="social-items"><a href="https://codepen.io/SMGEAR123/" target="_blank"><i class="fab fa-codepen"> &nbsp;CodePen</i></a></li>
@@ -79,14 +80,15 @@
     </article>
   </section>
   </div>
-  <a href="#"><button class="fixed-top-btn"><i class="fas fa-chevron-up"></i></button></a>
+  <button class="fixed-top-btn"><a href="#"><i class="fas fa-chevron-up"></i></a></button>
 </header>
 
 <!--Main Content Starts Here-->
 <main class="container content">
   <section>
+    <h2>About Me</h2>
     <article class="about">
-      <h2>About Me</h2>
+      
         <!-- Lorem text courtesy of https://www.lipsum.com/feed/html -->
 
       <p class="about-text">I currently work in website management, development, and support and am a perpetual student!
@@ -159,7 +161,7 @@
     <div class="col-md-4 port-item">
       <div class="thumbnail">
       <a href="https://github.com/SMGEAR123/portfolio-draft-1" target="_blank">
-      <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200px;" height="200px;">
+      <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200" height="200">
       </a>
         <div class="caption">
           <h3><a href="https://github.com/SMGEAR123/portfolio-draft-1" class="project-link" target="_blank">Portfolio Project</a></h3>
@@ -180,7 +182,7 @@
     <div class="col-md-4 port-item">
       <div class="thumbnail">
         <a href="https://github.com/SMGEAR123/final-project-mtg" target="_blank">
-        <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200px;" height="200px;">
+        <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200" height="200">
         </a>
         <div class="caption">
           <h3><a href="https://github.com/SMGEAR123/final-project-mtg" class="project-link" target="_blank">MTG Trading Web App</a></h3>
@@ -206,7 +208,7 @@
     <div class="col-md-4 port-item">
       <div class="thumbnail">
         <a href="https://codepen.io/SMGEAR123/" target="_blank">
-        <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200px;" height="200px;">
+        <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200" height="200">
         </a>
           <div class="caption">
             <h3><a href="https://codepen.io/SMGEAR123/" class="project-link" target="_blank">Micro Projects</a></h3>
@@ -295,23 +297,23 @@
   <p>Contact me on <a class="site-link" href="https://www.linkedin.com/in/sam-mans-3b89603b/" target="_blank">LinkedIn!</a></p>
   <form class="contact-form">
     <div class="input-group">
-      <label for="text">Name*</label>
-      <input required type="text" placeholder="What's your name?" aria-describedby="basic-addon1">
+      <label for="name">Name*</label>
+      <input required type="text" name="name" id="name" placeholder="What's your name?" aria-describedby="basic-addon1">
     </div>
 
     <div class="input-group">
       <label for="email">Email*</label>
-      <input required type="text" placeholder="What's your email?">
+      <input id="email" required type="text" placeholder="What's your email?">
     </div>
 
     <div class="input-group">
         <label for="subject">Subject*</label>
-        <input required type="text" placeholder="What did you want to discuss?">
+        <input required type="text" name="subject" id="subject" placeholder="What did you want to discuss?">
       </div>
 
     <div class="input-group">
       <label for="message">Message*</label>
-      <textarea required name="message" id="text-body" cols="42" rows="30" placeholder="Type your message here!"></textarea>
+      <textarea required name="message" id="message" cols="42" rows="30" placeholder="Type your message here!"></textarea>
     </div>
     <button class="btn btn-primary form-button">Submit</button>
 </form>
