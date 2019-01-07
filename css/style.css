@@ -35,9 +35,10 @@ ul {
 hr {
   width: 60%;
   /* Fallbacks for css. Source: https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
-  color: black;
-  border-color: black;
-  background-color: black;
+  color: white;
+  border-color: white;
+  background-color: white;
+  /* display: none; */
 }
 
 header {
@@ -62,14 +63,15 @@ div.container-fluid {
 
 .myself {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 260px;
+  height: 260px;
   margin: 15px 15px;
 }
 
 .my-title {
   font-size: 20px;
   font-weight: normal;
+  margin-bottom: 30px;
 }
 
 .motivator {
@@ -174,6 +176,10 @@ div.container-fluid {
   padding: 0px;
 }
 
+.social-items > a > * {
+  color: white;
+}
+
 .skill-icon {
   font-size: 50px;
   padding: 24px;
@@ -218,9 +224,11 @@ nav {
 
 .intro {
   text-align: center;
+  background-color: #2B3856;
+  color: white;
   /* border: 1px solid blue; */
   /* margin: 0px 0px 10px 0px; */
-  padding: 20px 0px 0px 0px;
+  padding: 40px 0px 40px 0px;
 }
 
 .skills2paybills {
