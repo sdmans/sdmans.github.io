@@ -5,7 +5,7 @@ $(document).ready(function(){
   const input = $('div.input-group > input, textarea');
   const shortcutBtn = $('button.anchor-btn');
   const anchorLinks = $('p.anchor');
-  const topButton = $('button.fixed-top-btn');
+  const fixedLinkTop = $('a.fixed-top');
   const introSection = $('section.intro');
   const contactForm = $('.contact-form');
  
@@ -24,11 +24,11 @@ $(document).ready(function(){
   /* Logic for top scroll button */
   /* Create functions that add or remove buttons */
   const displayBtn =  function() {
-    topButton.css("display", "block");
+    fixedLinkTop.css("display", "block");
   }
 
   const removeBtn = function() {
-    topButton.css("display", "none");
+    fixedLinkTop.css("display", "none");
   }
 
   /*Source for function below https://stackoverflow.com/questions/17441065/how-to-detect-scroll-position-of-page-using-jquery */
@@ -36,7 +36,7 @@ $(document).ready(function(){
     /* Code below checks for position and stores it in height variable */
     let height = $(window).scrollTop();
     if (height > 1) {
-      /* Toggle topButton class so that the button is either displayed or removed based on position */
+      /* Toggle fixedLinkTop class so that the button is either displayed or removed based on position */
       displayBtn();
     } else if (height === 0) {
       removeBtn();
