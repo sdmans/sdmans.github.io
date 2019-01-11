@@ -19,6 +19,12 @@ a {
 
 .site-link {
  font-weight: bold;
+ color: #375c96;;
+}
+
+.site-link:hover {
+  text-decoration: none;
+  color: #00749b;
 }
 
 /* Anchor Tag Styles end */
@@ -68,6 +74,10 @@ div.container-fluid {
   margin: 15px 15px;
 }
 
+.my-name {
+  font-size: 40px;
+}
+
 ul.specialty-list {
   padding: 0px;
 }
@@ -75,19 +85,30 @@ ul.specialty-list {
 li.my-specialty {
   display: inline-block;
   font-size: 20px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 li.my-specialty:not(:last-child) {
-  border-right: 1px solid white;
+  /* border-right: 1px solid white; */
+}
+
+span.dot {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  /* background-color: #375c96; */
+  border-radius: 50%;
+  display: inline-block;
+  padding-left: 3px;
+  padding-right: 3px;
+  
 }
 
 .my-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: normal;
-  margin-bottom: 30px;
-  padding: 50px;
+  padding: 20px;
 }
 
 .motivator {
@@ -183,11 +204,6 @@ li.my-specialty:not(:last-child) {
 
 /* Styles for social media article element */
 
-.social {
-  padding-top: 10px;
-  border-top-width: 50%;
-}
-
 .social-icons {
   padding: 0px;
 }
@@ -195,6 +211,7 @@ li.my-specialty:not(:last-child) {
 /* New Social Menu Styles */
 ul.social-menu {
   padding: 0px;
+  margin: 0px;
 }
 
 ul.social-menu > li.social-menu-items {
@@ -206,7 +223,7 @@ ul.social-menu > li.social-menu-items {
   border-radius: 50%;
   /* border: 1px solid black; */
   /* background-color: #add8e6 */
-  background-color: #00749b;
+  /* background-color: #00749b; */
   background-color: #375c96;
   /* margin: 0px 0px 0px 0px; */
 }
