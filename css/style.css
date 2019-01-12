@@ -71,7 +71,6 @@ div.container-fluid {
   border-radius: 50%;
   width: 260px;
   height: 260px;
-  margin: 15px 15px;
 }
 
 .my-name {
@@ -461,8 +460,11 @@ section.contact > label, input, textarea {
   display: block;
 }
 
+section.contact > input, textarea {
+  color: black;
+}
+
 label {
-  /* text-align: center; */
   margin-top: 10px;
 }
 
@@ -474,6 +476,7 @@ label {
   text-align: center;
   width: 400px;
   height: 42px;
+  color: black;
 }
 
 textarea {
