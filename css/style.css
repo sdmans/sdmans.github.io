@@ -137,6 +137,12 @@ span.dot {
 }
 
 /* Nav item styles start here */
+
+/* Change navbar-header class to change the navbar color */
+.navbar-header {
+  background-color: #fff;
+}
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -236,6 +242,7 @@ ul.social-menu > li.social-menu-items > a > * {
 
 ul.social-menu > li.social-menu-items:hover {
   background-color: #00749b;
+  cursor: pointer;
   /* background-color: #375c96; */
   /* background-color: #add8e6 */
   /* height: 62px;
@@ -367,7 +374,7 @@ footer {
 .about-text {
   /* color: teal; */
   font-size: 18px;
-  padding: 10px 80px 10px 80px;
+  padding: 10px 56px 10px 56px;
 }
 
 /* Skills and Tools section */
@@ -553,7 +560,7 @@ Large devices (large desktops, 1200px and up)
 @media (max-width: 768px) {
 
   .about-text {
-    padding: 0px 30px 10px 30px;
+    padding: 0px 28px 10px 28px;
     font-size: 18px;
   }
 
@@ -569,7 +576,7 @@ Large devices (large desktops, 1200px and up)
     width: 220px;
     height: 220px;
     padding: 0px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   ul.social-icons > li {
