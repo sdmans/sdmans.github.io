@@ -427,20 +427,40 @@ a.project-link:hover {
   margin: 0 auto;
 }
 
+/* For relevant work experience section */
 ul.list-group > li {
   margin-bottom: 24px;
 }
 
-.work-title {
-  font-weight: bold;
+ul.list-group > li > p.work-title {
+  /* font-weight: bold; */
+  font-weight: 520;
+  font-size: 18px;
+  /* border-bottom: 1px solid black; */
+}
+
+/* For volunteer work and courses */
+ul.list-group > li > span.work-title {
+  /* font-weight: bold; */
+  font-weight: 520;
   font-size: 18px;
 }
+
 
 .work-title > a:hover {
   text-decoration: none;
 }
 
+.date {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
 .work-description {
+  font-size: 16px;
+}
+
+.company {
   font-size: 16px;
 }
 
