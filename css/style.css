@@ -612,11 +612,11 @@ Large devices (large desktops, 1200px and up)
   }
 
   .description-container {
-    height: 300px;
+    height: 320px;
   }
 
   ul.social-menu {
-    margin: 0px;
+    padding-top: 10px;
   }
 
   li.my-specialty:not(:first-child) {
