@@ -8,8 +8,35 @@ $(document).ready(function(){
   const fixedLinkTop = $('a.fixed-top');
   const introSection = $('section.intro');
   const contactForm = $('.contact-form');
- 
 
+  /*Fade In properties, trying out the $ because I saw someone smart use it :D */
+  const $myTitle = $('p.my-title');
+  const $specialties = $('.my-specialty');
+  const $socialList = $('ul.social-menu');
+  const $workItems = $('li.work');
+
+/* Find a way to display work items at a delay */
+  // $workItems.each(function(index) {
+  //   console.log($workItems);
+  //   $workItems.hide();
+  // })
+  /* Title, Specialties, an Social Menu will fade in at the beginning with an interval */
+ 
+  $myTitle.hide().delay(500).fadeIn();
+
+  
+  $specialties.each(function(index) {
+  /* Code below lets you time these to load in at separate intervals based on the index, based on https://stackoverflow.com/questions/379900/fade-in-each-element-one-after-another */ 
+    // $(this).hide().delay(1400*(index+1)).fadeIn()
+    $(this).hide().delay(1000).fadeIn();
+  })
+
+  $socialList.hide().delay(1600).fadeIn();
+
+  // specialties.each(function(index) {
+  //   // console.log(this, index);
+  //   $(this).delay(600*index).fadeIn(400);
+  // })
   /* If you click on the top intro section, it will check if the hamburger navbar is open and click to close if it is */
   introSection.click(function() {
     if(collapsingDiv.hasClass('in')) {
@@ -35,13 +62,19 @@ $(document).ready(function(){
   $(window).scroll(function(){
     /* Code below checks for position and stores it in height variable */
     let height = $(window).scrollTop();
+    // console.log(height);
     if (height > 1) {
       /* Toggle fixedLinkTop class so that the button is either displayed or removed based on position */
       displayBtn();
+      /* Attempting to hide work items */
     } else if (height === 0) {
       removeBtn();
     }
   });// Top scroll button functionality ends here
+
+
+  /* Get Work History to display based on window position. The position seems to be 4397 according to the log above. */
+
 
 anchorLinks.fadeOut();//Links fade out at the beginning
 
@@ -90,7 +123,7 @@ anchorLinks.fadeOut();//Links fade out at the beginning
    })
  });
 
- /* Prevent contact form from resetting and  */
+ /* Prevent contact form from resetting and log message for now */
 contactForm.submit(function(e){
   e.preventDefault();
   console.log('Submitting form...');
