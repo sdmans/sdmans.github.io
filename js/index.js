@@ -21,20 +21,16 @@ $(document).ready(function(){
   //   console.log($workItems);
   //   $workItems.hide();
   // })
-  /* Title, Specialties, an Social Menu will fade in at the beginning with an interval */
+  /* Name, Title, Specialties, an Social Menu will fade in at the beginning with a timed interval */
  
   $myName.hide().delay(300).fadeIn();
-
   $myTitle.hide().delay(600).fadeIn();
-
-  
   $specialties.each(function(index) {
   /* Code below lets you time these to load in at separate intervals based on the index, based on https://stackoverflow.com/questions/379900/fade-in-each-element-one-after-another */ 
     // $(this).hide().delay(1400*(index+1)).fadeIn()
     $(this).hide().delay(1000).fadeIn();
   })
-
-  $socialList.hide().delay(1400).fadeIn();
+  $socialList.hide().delay(1500).fadeIn();
 
   // specialties.each(function(index) {
   //   // console.log(this, index);

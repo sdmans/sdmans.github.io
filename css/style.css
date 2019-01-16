@@ -210,15 +210,7 @@ span.dot {
   /* text-decoration: underline dotted; */
 }
 
-#portfolio {
-  height: 40px;
-}
-
-#experience {
-  height: 40px;
-}
-
-#contact {
+#portfolio, #skills, #experience, #contact {
   height: 40px;
 }
 
@@ -277,6 +269,13 @@ ul.social-menu > li.social-menu-items:hover {
   font-size: 50px;
   padding: 24px;
 }
+
+.skill-item {
+  font-size: 24px;
+  padding: 14px;
+}
+
+
 
 /* Controls size of social media icons */
 .fab {
