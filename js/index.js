@@ -13,6 +13,7 @@ $(document).ready(function(){
   const $myTitle = $('p.my-title');
   const $specialties = $('.my-specialty');
   const $socialList = $('ul.social-menu');
+  const $myName = $('h2.my-name'); 
   const $workItems = $('li.work');
 
 /* Find a way to display work items at a delay */
@@ -22,7 +23,9 @@ $(document).ready(function(){
   // })
   /* Title, Specialties, an Social Menu will fade in at the beginning with an interval */
  
-  $myTitle.hide().delay(500).fadeIn();
+  $myName.hide().delay(300).fadeIn();
+
+  $myTitle.hide().delay(600).fadeIn();
 
   
   $specialties.each(function(index) {
@@ -31,7 +34,7 @@ $(document).ready(function(){
     $(this).hide().delay(1000).fadeIn();
   })
 
-  $socialList.hide().delay(1600).fadeIn();
+  $socialList.hide().delay(1400).fadeIn();
 
   // specialties.each(function(index) {
   //   // console.log(this, index);

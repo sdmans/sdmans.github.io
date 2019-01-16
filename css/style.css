@@ -447,6 +447,7 @@ ul.list-group > li {
 }
 
 ul.list-group > li.work {
+  /* height: auto; */
   border: 3px solid #375c96;
   padding: 22px;
   border-radius: 20px;
