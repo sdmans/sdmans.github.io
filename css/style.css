@@ -585,6 +585,14 @@ Large devices (large desktops, 1200px and up)
     margin-top: 40px;
   }
 
+  .specialty-list {
+    display: none;
+  }
+
+  .description-container {
+    height: 100px;
+  }
+
 }
 
 /* Custom media query for social icons */
@@ -619,7 +627,7 @@ Large devices (large desktops, 1200px and up)
   }
 
   .description-container {
-    height: 320px;
+    height: 150px;
   }
 
   ul.social-menu {
