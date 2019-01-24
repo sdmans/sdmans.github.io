@@ -74,8 +74,8 @@ div.container-fluid {
 
 .myself {
   border-radius: 50%;
-  width: 260px;
-  height: 260px;
+  width: 180px;
+  height: 180px;
 }
 
 .description-container {
@@ -632,8 +632,8 @@ Large devices (large desktops, 1200px and up)
   }
 
   .myself {
-    width: 220px;
-    height: 220px;
+    width: 160px;
+    height: 160px;
     padding: 0px;
     /* margin-top: 20px; */
   }
