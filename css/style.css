@@ -169,6 +169,10 @@ span.dot {
   margin-right: -240px;
 }
 
+.nav-item {
+  font-size: 18px;
+}
+
 .navbar-btn {
   height: 36px;
   width: 80px;
@@ -456,11 +460,12 @@ a.project-link:hover {
   width: 80%;
   padding: 0px 0px 20px 0px;
   margin: 0 auto;
+  margin-top: 40px;
 }
 
 /* For relevant work experience section */
 ul.list-group > li {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 ul.list-group > li.work {
@@ -492,6 +497,7 @@ ul.list-group > li > span.work-title {
 
 .work-description {
   font-size: 16px;
+  padding: 0px 120px 0px 120px;
 }
 
 .company {
@@ -586,25 +592,21 @@ li.nav-item:hover {
 
 /* Boostrap Media Query Details
 Small devices (tablets, 768px and up)
+
 Medium devices (desktops, 992px and up)
+Note: Hamburger menu appears below 992px
+
 Large devices (large desktops, 1200px and up)
 */
 
-/* Skills and Tools
-- Fix padding for listed skills at max length */
+/* Size Changes
+- check padding for in the following places:
 
-/* Portfolio
-- Fix image margins
 */
-/* For Views larger than 768px */
-@media (min-width: 768px) {
-  .nav-item {
-    font-size: 18px;
-  }
-}
 
+
+/* For width up to 992px */
 @media (max-width: 992px) {
-
   article.row {
     margin-top: 6px;
   }
@@ -621,10 +623,19 @@ Large devices (large desktops, 1200px and up)
     height: 100px;
   }
 
+  .work-description {
+    padding: 0px 20px 0px 20px;
+  }
+}
+/* For views between 992 and 1200px*/
+@media (max-width: 992px) and (min-width:768px)  {
+  .navbar-brand {
+    margin-right: -140px;
+  }
 }
 
 /* Custom media query for social icons */
-@media (min-width: 600px ) {
+@media (max-width: 600px ) {
   ul.social-icons > li {
     display: inline-block;
     margin: 0px 0px 0px 0px;
@@ -691,13 +702,4 @@ Large devices (large desktops, 1200px and up)
   .fab {
     font-size: 26px;
   }
-
-  .nav-item {
-    font-size: 16px;
-  }
-
-  li.nav-item:hover {
-    font-weight: normal;
-  }
-
 }
