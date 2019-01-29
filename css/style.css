@@ -87,7 +87,7 @@ div.social {
 }
 
 .my-name {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 ul.specialty-list {
@@ -497,7 +497,7 @@ ul.list-group > li > span.work-title {
 
 .work-description {
   font-size: 16px;
-  padding: 0px 120px 0px 120px;
+  padding: 0px 110px 0px 110px;
 }
 
 .company {
@@ -509,15 +509,19 @@ ul.list-group > li > span.work-title {
   font-size: 18px;
 }
 
-.work-items-list {
+ul.work-items-list {
   padding: 0px;
   margin: 10px;
 }
 
-.work-items {
+ul.work-items-list > li:not(:first-child) {
+  border-left: 1px solid black;
+}
+
+li.work-items {
   display: inline-block;
-  padding-left: 5px;
   font-size: 16px;
+  padding: 0px 10px 0px 10px;
 }
 
 /* Experience element styles end here */
@@ -624,7 +628,7 @@ Large devices (large desktops, 1200px and up)
   }
 
   .work-description {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 14px 0px 14px;
   }
 }
 /* For views between 992 and 1200px*/
@@ -644,6 +648,9 @@ Large devices (large desktops, 1200px and up)
 }
 
 @media (max-width: 768px) {
+  .intro {
+    padding: 20px 0px 20px 0px;
+  }
 
   .about-text {
     padding: 0px 28px 10px 28px;
@@ -701,5 +708,14 @@ Large devices (large desktops, 1200px and up)
 
   .fab {
     font-size: 26px;
+  }
+
+  ul.work-items-list > li:not(:first-child) {
+    border: none;
+  }
+
+  ul.work-items-list > li {
+    padding: 2px;
+    /* margin: 0px; */
   }
 }
