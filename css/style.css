@@ -420,6 +420,24 @@ h3.project-title {
   padding-bottom: 10px;
 }
 
+div.presentation {
+  display: flex;
+  justify-content: center;
+}
+
+.presentation-icon {
+  font-size: 40px;
+}
+
+.presentation-item {
+  margin: 10px 30px 10px 30px;
+}
+
+p.presentation-item > a:hover {
+  /* color: #00749b; */
+  cursor: pointer;
+}
+
 hr.project-divider {
   /* height: 1px; */
   width: 70%;
