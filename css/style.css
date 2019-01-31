@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
+h2 {
+  font-size: 36px;
+  margin: 10;
+}
+
 /* Anchor Tag Styles */
 a {
   color: black;
@@ -303,9 +308,24 @@ ul.social-icons > li {
 /* Social Media Ends */
 
 /* Porfolio Section CSS */
+.project-item {
+  background-color: white;
+  /* height: 620px; */
+  /* width: 360px; */
+  color: black;
+  border-radius: 10px;
+  margin: 26px;
+  padding: 40px;
+}
+
 .project-img {
   height: 200px;
   width: 280px;
+}
+
+.project-img-container {
+    display: flex;
+    justify-content: center;
 }
 
 /*CSS for sections that divide content */
@@ -340,11 +360,13 @@ nav {
   padding: 10px 0px 0px 0px;
 }
 
-.portfolio {
+section.portfolio {
   /* border: 1px solid rgb(0, 213, 192); */
   /* border-top: 1px solid #F0F0F0; */
-  padding: 0px 0px 0px 0px;
+  padding: 120px 0px 120px 0px;
   text-align: center;
+  background-color: #2B3856;
+  color: white;
 }
 
 .experience {
@@ -623,8 +645,20 @@ Large devices (large desktops, 1200px and up)
 
 /* Size Changes
 - check padding for in the following places:
-
 */
+
+@media(max-width: 1160px) and (min-width: 992px) {
+  .project-img {
+    width: 200px;
+    padding-right: 10px;
+  };
+}
+
+@media(max-width: 1260px) and (min-width: 1161px) {
+  .project-img {
+    width: 260px;
+  }
+}
 
 
 /* For width up to 992px */

@@ -102,9 +102,9 @@
 </header>
 
 <!--Main Content Starts Here-->
-<main class="container content">
+<main class="content">
    <!-- About Content starts here -->
-  <section>
+  <section class="container">
     <h2>About Me</h2>
     <article class="about">
 
@@ -131,7 +131,7 @@
 
   <!-- Skills section starts here -->
   <div id="skills"></div>
-  <section class="skills2paybills">
+  <section class="container skills2paybills">
       <h2>Skills and Tools</h2>
 
 <article class="row skills">
@@ -185,82 +185,94 @@
 
 <!--Project Section Begins-->
 <div id="portfolio"></div>
-<section class="portfolio">
+<section class="portfolio continer-fluid">
   <h2>Portfolio</h2>
   <!--Placeholders courtesy of https://placeholder.com/ -->
   <article class="row">
     <div class="col-md-4 port-item">
-      <a href="https://github.com/SMGEAR123/SMGEAR123.github.io" target="_blank">
-      <img src="img/portfolio-page.png" class="project-img" alt="Sam's portfolio project">
-      </a>
-          <h3 class="project-title"><a href="https://github.com/SMGEAR123/SMGEAR123.github.io" class="project-link" target="_blank">Portfolio Project</a></h3>
-          <div class="presentation">
-            <p class="presentation-item"><a href="https://smgear123.github.io/" target="_blank"><i class="fas fa-laptop presentation-icon"></i></a></p>
-            <p class="presentation-item"><a href="https://github.com/SMGEAR123/SMGEAR123.github.io" target="_blank"><i class="fas fa-file-code presentation-icon"></i></a></p>
+        <div class="project-item">
+        <div class="project-img-container">
+          <a href="https://github.com/SMGEAR123/SMGEAR123.github.io" target="_blank">
+          <img src="img/portfolio-page.png" class="project-img" alt="Sam's portfolio project">
+          </a>
+        </div>
+            <h3 class="project-title"><a href="https://github.com/SMGEAR123/SMGEAR123.github.io" class="project-link" target="_blank">Portfolio Project</a></h3>
+            <div class="presentation">
+              <p class="presentation-item"><a href="https://smgear123.github.io/" target="_blank"><i class="fas fa-laptop presentation-icon"></i></a></p>
+              <p class="presentation-item"><a href="https://github.com/SMGEAR123/SMGEAR123.github.io" target="_blank"><i class="fas fa-file-code presentation-icon"></i></a></p>
+            </div>
+            <hr class="project-divider">
+            <p>How I made this portfolio website!</p>
+            <p><b>Currently in progress!</b></p>
+          <p class="tool-header"><b>Tools</b></p>
+          <div class="tool-list">
+            <!-- Previously had bg-primary for blue background -->
+              <div class="tool-item">HTML/CSS</div>
+              <div class="tool-item">jQuery</div>
+              <div class="tool-item">Bootstrap</div>
+              <div class="tool-item">Font Awesome</div>
           </div>
-          <hr class="project-divider">
-          <p>How I made this portfolio website!</p>
-          <p><b>Currently in progress!</b></p>
-        <p class="tool-header"><b>Tools</b></p>
-        <div class="tool-list">
-          <!-- Previously had bg-primary for blue background -->
-            <div class="tool-item">HTML/CSS</div>
-            <div class="tool-item">jQuery</div>
-            <div class="tool-item">Bootstrap</div>
-            <div class="tool-item">Font Awesome</div>
         </div>
     </div><!-- Column 4 ends -->
 
     <div class="col-md-4 port-item">
-        <a href="https://github.com/SMGEAR123/final-project-mtg" target="_blank">
-        <img src="img/mtg app.png" class="project-img" alt="Magic the Gathering CRUD single page application" width="200" height="200">
-        </a>
-          <h3 class="project-title"><a href="https://github.com/SMGEAR123/final-project-mtg" class="project-link" target="_blank">MTG Trading Web App</a></h3>
-          <div class="presentation">
-            <p class="presentation-item"><a href="https://enigmatic-basin-39847.herokuapp.com/" target="_blank"><i class="fas fa-laptop presentation-icon"></i></a></p>
-            <p class="presentation-item"><a href="https://github.com/SMGEAR123/final-project-mtg" target="_blank"><i class="fas fa-file-code presentation-icon"></i></a></p>
+        <div class="project-item">
+          <div class="project-img-container">
+            <a href="https://github.com/SMGEAR123/final-project-mtg" target="_blank">
+            <img src="img/mtg app.png" class="project-img" alt="Magic the Gathering CRUD single page application" width="200" height="200">
+            </a>
           </div>
-          <hr class="project-divider">
-          <p>An application that lets users search, collect, and trade cards</p>
-          <!-- <p><i class="far fa-grin-beam-sweat notify notify-icon"></i>
-            <span class="notify"><b>Update coming soon, I promise!</b></span></p> -->
-        <p class="tool-header"><b>Tools</b></p>
-        <div class="tool-list">
-            <div class="tool-item">HTML/CSS</div>
-            <div class="tool-item">NodeJS</div>
-            <div class="tool-item">Handlebars</div>
-            <div class="tool-item">Heroku</div>
-            <div class="tool-item">PassportJS</div>
-            <div class="tool-item">Bootstrap</div>
+            <h3 class="project-title"><a href="https://github.com/SMGEAR123/final-project-mtg" class="project-link" target="_blank">MTG Trading Web App</a></h3>
+            <div class="presentation">
+              <p class="presentation-item"><a href="https://enigmatic-basin-39847.herokuapp.com/" target="_blank"><i class="fas fa-laptop presentation-icon"></i></a></p>
+              <p class="presentation-item"><a href="https://github.com/SMGEAR123/final-project-mtg" target="_blank"><i class="fas fa-file-code presentation-icon"></i></a></p>
+            </div>
+            <hr class="project-divider">
+            <p>An application that lets users search, collect, and trade cards</p>
+            <!-- <p><i class="far fa-grin-beam-sweat notify notify-icon"></i>
+              <span class="notify"><b>Update coming soon, I promise!</b></span></p> -->
+          <p class="tool-header"><b>Tools</b></p>
+          <div class="tool-list">
+              <div class="tool-item">HTML/CSS</div>
+              <div class="tool-item">NodeJS</div>
+              <div class="tool-item">Handlebars</div>
+              <div class="tool-item">Heroku</div>
+              <div class="tool-item">PassportJS</div>
+              <div class="tool-item">Bootstrap</div>
+          </div>
         </div>
     </div>
 
     <div class="col-md-4 port-item">
-        <a href="https://codepen.io/SMGEAR123/" target="_blank">
-        <img src="img/codepen-img.png" class="project-img" alt="Codepen preview">
-        </a>
-            <h3 class="project-title"><a href="https://codepen.io/SMGEAR123/" class="project-link" target="_blank">Micro Projects</a></h3>
-            <!-- <div class="presentation">
-              <p class="presentation-item"><a href="#" target="_blank"><i class="fas fa-laptop presentation-icon"></i></a></p>
-              <p class="presentation-item"><a href="#" target="_blank"><i class="fas fa-file-code presentation-icon"></i></a></p>
-            </div> -->
-            <hr class="project-divider">
-            <p>Small projects I made to understand concepts in JavaScript, CSS, and other practical tools</p>
-            <p><b>Always in progress!</b></p>
-        <div class="micro">
-          <p><a href="https://github.com/SMGEAR123/todolist-ng-firebase" target="_blank">To Do List</a> with Angular and Firebase</p>
-          <p><a href="https://codepen.io/SMGEAR123/full/NLOBqZ/" target="_blank">Wikipedia Viewer</a> (See Angular <a href="https://github.com/SMGEAR123/fcc-wiki-viewer" target="_blank">Version</a>)</p>
-          <p><a href="https://codepen.io/SMGEAR123/full/oabRGa" target="_blank">Random Quote Machine</a></p>
-          <p> <a href="https://codepen.io/SMGEAR123/full/QzdmyB" target="_blank">Weather App</a></p>
-        </div>
-          <p class="tool-header"><b>Tools</b></p>
-        <div class="tool-list">
-            <div class="tool-item">HTML/CSS</div>
-            <div class="tool-item">JavaScript</div>
-            <div class="tool-item">AJAX</div>
-            <div class="tool-item">Angular</div>
-            <div class="tool-item">Firebase</div>
-            <div class="tool-item">RXJS</div>
+        <div class="project-item">
+          <div class="project-img-container">
+            <a href="https://codepen.io/SMGEAR123/" target="_blank">
+            <img src="img/codepen-img.png" class="project-img" alt="Codepen preview">
+            </a>
+          </div>
+              <h3 class="project-title"><a href="https://codepen.io/SMGEAR123/" class="project-link" target="_blank">Micro Projects</a></h3>
+              <!-- <div class="presentation">
+                <p class="presentation-item"><a href="#" target="_blank"><i class="fas fa-laptop presentation-icon"></i></a></p>
+                <p class="presentation-item"><a href="#" target="_blank"><i class="fas fa-file-code presentation-icon"></i></a></p>
+              </div> -->
+              <hr class="project-divider">
+              <p>Small projects I made to understand concepts in JavaScript, CSS, and other practical tools</p>
+              <p><b>Always in progress!</b></p>
+          <div class="micro">
+            <p><a href="https://github.com/SMGEAR123/todolist-ng-firebase" target="_blank">To Do List</a> with Angular and Firebase</p>
+            <p><a href="https://codepen.io/SMGEAR123/full/NLOBqZ/" target="_blank">Wikipedia Viewer</a> (See Angular <a href="https://github.com/SMGEAR123/fcc-wiki-viewer" target="_blank">Version</a>)</p>
+            <p><a href="https://codepen.io/SMGEAR123/full/oabRGa" target="_blank">Random Quote Machine</a></p>
+            <p> <a href="https://codepen.io/SMGEAR123/full/QzdmyB" target="_blank">Weather App</a></p>
+          </div>
+            <p class="tool-header"><b>Tools</b></p>
+          <div class="tool-list">
+              <div class="tool-item">HTML/CSS</div>
+              <div class="tool-item">JavaScript</div>
+              <div class="tool-item">AJAX</div>
+              <div class="tool-item">Angular</div>
+              <div class="tool-item">Firebase</div>
+              <div class="tool-item">RXJS</div>
+          </div>
         </div>
     </div>
   </article>
@@ -271,7 +283,7 @@
 
 <!--Section on Experience and Projects starts here -->
 <div id="experience"></div>
-  <section class="experience">
+  <section class="experience container">
      <h2>Experience</h2>
     <div class="job-list">
       <h3>Relevant Work Experience</h3>
