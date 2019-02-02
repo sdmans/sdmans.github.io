@@ -318,6 +318,10 @@ ul.social-icons > li {
   padding: 40px;
 }
 
+.project-item > p {
+  font-size: 18px;
+}
+
 .project-img {
   height: 200px;
   width: 280px;
@@ -363,7 +367,7 @@ nav {
 section.portfolio {
   /* border: 1px solid rgb(0, 213, 192); */
   /* border-top: 1px solid #F0F0F0; */
-  padding: 120px 0px 120px 0px;
+  padding: 40px 0px 40px 0px;
   text-align: center;
   background-color: #2B3856;
   color: white;
@@ -405,15 +409,17 @@ footer {
 
 .micro {
   padding: 6px;
+  font-size: 14px;
 }
 
 .micro > p {
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 4px 0px 4px 0px;
 }
 
 .micro > p > a {
   color: #37b289;
+  font-weight: bold;
 }
 
 .about-text {
@@ -483,14 +489,12 @@ a.project-link:hover {
 
 .tool-item {
   display: inline-block;
-  width: 120px;
+  /* width: 120px; */
   height: 30px;
-  padding: 6px;
-  margin: 2px;
+  margin: 0px 4px 0px 4px;
   font-size: 16px;
   /* border-radius: 5px; */
 }
-
 
 /* Portfolio styles end here */
 
