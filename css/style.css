@@ -308,6 +308,12 @@ ul.social-icons > li {
 /* Social Media Ends */
 
 /* Porfolio Section CSS */
+
+article.portfolio-article {
+margin-left: 0px;
+margin-right: 0px;
+}
+
 .project-item {
   background-color: white;
   /* height: 620px; */
@@ -669,6 +675,9 @@ Large devices (large desktops, 1200px and up)
 @media (max-width: 992px) {
   article.row {
     margin-top: 6px;
+    margin-left: 0px;
+    margin-right: 0px;
+
   }
 
   .port-item {
