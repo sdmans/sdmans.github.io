@@ -775,6 +775,11 @@ Large devices (large desktops, 1200px and up)
     font-size: 26px;
   }
 
+  .project-img {
+    height: 160px;
+    width: 240px;
+  }
+
   ul.work-items-list > li:not(:first-child) {
     border: none;
   }
