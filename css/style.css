@@ -735,6 +735,10 @@ Large devices (large desktops, 1200px and up)
     margin-bottom: 16px;
   }
 
+  .sub-header {
+    padding: 0px 20px 0px 20px;
+  }
+
   .myself {
     width: 160px;
     height: 160px;
