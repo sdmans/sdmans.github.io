@@ -89,18 +89,24 @@ div.container-fluid {
 
 div.social {
   height: 100px;
+  margin-bottom: 40px;
 }
 
 .my-name {
+  /* Tied to jQuery Fade In */
+  display: none;
   font-size: 36px;
 }
 
 ul.specialty-list {
+  /* Tied to jQuery Fade In */
   margin: 10px;
   padding: 0px;
+  display: none;
 }
 
 li.my-specialty {
+  /* tied to Jquery fade in */
   display: inline-block;
   font-size: 20px;
   padding-left: 6px;
@@ -125,6 +131,8 @@ span.dot {
 }
 
 .my-title {
+  /* tied to jQuery fade in */
+  display: none;
   font-size: 24px;
   font-weight: normal;
   padding: 20px;
@@ -231,7 +239,9 @@ span.dot {
 
 /* New Social Menu Styles */
 ul.social-menu {
+  margin-top: 120px;
   padding: 0px;
+  display: none;
 }
 
 ul.social-menu > li.social-menu-items {
@@ -662,7 +672,7 @@ Large devices (large desktops, 1200px and up)
   .project-img {
     width: 200px;
     padding-right: 10px;
-  };
+  }
 }
 
 @media(max-width: 1260px) and (min-width: 1161px) {
@@ -670,7 +680,6 @@ Large devices (large desktops, 1200px and up)
     width: 260px;
   }
 }
-
 
 /* For width up to 992px */
 @media (max-width: 992px) {
@@ -687,10 +696,6 @@ Large devices (large desktops, 1200px and up)
 
   .port-item {
     margin-top: 40px;
-  }
-
-  .specialty-list {
-    display: none;
   }
 
   .description-container {

@@ -10,32 +10,21 @@ $(document).ready(function(){
   const contactForm = $('.contact-form');
 
   /*Fade In properties, trying out the $ because I saw someone smart use it :D */
+  const $myName = $('h2.my-name');
   const $myTitle = $('p.my-title');
-  const $specialties = $('.my-specialty');
+  const $specialtyList = $('ul.specialty-list');
   const $socialList = $('ul.social-menu');
-  const $myName = $('h2.my-name'); 
-  const $workItems = $('li.work');
 
 /* Find a way to display work items at a delay */
-  // $workItems.each(function(index) {
-  //   console.log($workItems);
-  //   $workItems.hide();
-  // })
-  /* Name, Title, Specialties, an Social Menu will fade in at the beginning with a timed interval */
- 
-  $myName.hide().delay(300).fadeIn();
-  $myTitle.hide().delay(600).fadeIn();
-  $specialties.each(function(index) {
-  /* Code below lets you time these to load in at separate intervals based on the index, based on https://stackoverflow.com/questions/379900/fade-in-each-element-one-after-another */ 
-    // $(this).hide().delay(1400*(index+1)).fadeIn()
-    $(this).hide().delay(1000).fadeIn();
-  })
-  $socialList.hide().delay(1500).fadeIn();
+/* Name, Title, Specialties, an Social Menu will fade in at the beginning with a timed interval */
+ const displayElements = function () {
+  $myName.delay(300).fadeIn();
+  $myTitle.delay(600).fadeIn();
+  $specialtyList.delay(1000).fadeIn();
+  $socialList.delay(1500).fadeIn();
+}
+  displayElements();
 
-  // specialties.each(function(index) {
-  //   // console.log(this, index);
-  //   $(this).delay(600*index).fadeIn(400);
-  // })
   /* If you click on the top intro section, it will check if the hamburger navbar is open and click to close if it is */
   introSection.click(function() {
     if(collapsingDiv.hasClass('in')) {
