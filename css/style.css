@@ -87,11 +87,6 @@ div.container-fluid {
   height: 200px;
 }
 
-div.social {
-  height: 100px;
-  margin-bottom: 40px;
-}
-
 .my-name {
   /* Tied to jQuery Fade In */
   display: none;
@@ -233,13 +228,9 @@ span.dot {
 
 /* Styles for social media article element */
 
-.social-icons {
-  padding: 0px;
-}
-
 /* New Social Menu Styles */
 ul.social-menu {
-  margin-top: 120px;
+  /* margin-top: 120px; */
   padding: 0px;
   display: none;
 }
@@ -276,14 +267,6 @@ ul.social-menu > li.social-menu-items:hover {
   /* font-weight: bold; */
 }
 
-/* New social styles end here */
-
-/* Old social menu styles */
-
-.social-items > a > * {
-  color: white;
-}
-
 .skill-icon {
   font-size: 50px;
   padding: 24px;
@@ -293,7 +276,7 @@ ul.social-menu > li.social-menu-items:hover {
   font-size: 24px;
   padding: 14px;
 }
-
+/* New social styles end here */
 
 
 /* Controls size of social media icons */
@@ -368,6 +351,7 @@ nav {
   text-align: center;
   background-color: #2B3856;
   color: white;
+  height: 700px;
   /* border: 1px solid blue; */
   /* margin: 0px 0px 10px 0px; */
   padding: 40px 0px 40px 0px;
@@ -673,6 +657,10 @@ Large devices (large desktops, 1200px and up)
     width: 200px;
     padding-right: 10px;
   }
+
+  ul.social-menu {
+    margin: 0px;
+  }
 }
 
 @media(max-width: 1260px) and (min-width: 1161px) {
@@ -683,6 +671,11 @@ Large devices (large desktops, 1200px and up)
 
 /* For width up to 992px */
 @media (max-width: 992px) {
+
+  ul.social-menu {
+    margin-top: 120px;
+  }
+
   article.row {
     margin-top: 6px;
     margin-left: 0px;
@@ -711,6 +704,7 @@ Large devices (large desktops, 1200px and up)
   .navbar-brand {
     margin-right: -140px;
   }
+
 }
 
 /* Custom media query for social icons */
