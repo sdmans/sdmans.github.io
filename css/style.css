@@ -521,7 +521,7 @@ ul.list-group > li.work {
 }
 
 ul.list-group > li > p.work-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   
   /* border-bottom: 1px solid black; */
@@ -535,18 +535,18 @@ ul.list-group > li > span.work-title {
 }
 /* Styles for content for each position */
 .date {
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 3px;
   margin-bottom: 3px;
 }
 
 .work-description {
-  font-size: 16px;
+  font-size: 18px;
   padding: 0px 110px 0px 110px;
 }
 
 .company {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .work-skill-header {
@@ -723,7 +723,7 @@ Large devices (large desktops, 1200px and up)
 
   .about-text {
     padding: 0px 28px 10px 28px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .shortcuts > p {
