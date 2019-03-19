@@ -43,6 +43,11 @@ ul {
   list-style-type: none;
 }
 
+hr {
+  /* This should center the elements in Microsoft Edge */
+  margin: 0 auto;
+}
+
 hr.divider {
   width: 60%;
   height: 1px;
