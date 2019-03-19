@@ -19,7 +19,7 @@ $(document).ready(function(){
 /* Name, Title, Specialties, an Social Menu will fade in at the beginning with a timed interval */
  
 const displayElements = function () {
-
+/* Link to article that might help fix the fadein issue with IE */
   $myName.delay(300).fadeIn();
   $myTitle.delay(600).fadeIn();
   $specialtyList.delay(1000).fadeIn();
