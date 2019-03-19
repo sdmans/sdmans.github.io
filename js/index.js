@@ -17,13 +17,16 @@ $(document).ready(function(){
 
 /* Find a way to display work items at a delay */
 /* Name, Title, Specialties, an Social Menu will fade in at the beginning with a timed interval */
- const displayElements = function () {
+ 
+const displayElements = function () {
+
   $myName.delay(300).fadeIn();
   $myTitle.delay(600).fadeIn();
   $specialtyList.delay(1000).fadeIn();
   $socialList.delay(1500).fadeIn();
 }
-  displayElements();
+
+displayElements();
 
   /* If you click on the top intro section, it will check if the hamburger navbar is open and click to close if it is */
   introSection.click(function() {
