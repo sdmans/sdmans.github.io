@@ -43,23 +43,19 @@ ul {
   list-style-type: none;
 }
 
-hr {
-  /* This should center the elements in Microsoft Edge */
-  margin: 0 auto;
-}
-
 hr.divider {
   width: 60%;
   height: 1px;
   /* Fallbacks for css. Source: https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
   /* border-color: #375c96;
   background-color: #375c96; */
-  border-color: #E8E8E8;
-  background-color: #E8E8E8;
+  border-color: #DCDCDC;
+  background-color: #DCDCDC;
   /* margin: 0px 10px 0px 10px; */
   /* display: none; */
   margin-top: 60px;
   margin-bottom: 40px;
+  margin: 0 auto;
 }
 
 header {
@@ -475,8 +471,8 @@ p.presentation-item > a:hover {
 hr.project-divider {
   /* height: 1px; */
   width: 70%;
-  border-color: #E8E8E8;
-  background-color: #E8E8E8;
+  border-color: #DCDCDC;
+  background-color: #DCDCDC;
   padding: 0;
 }
 
