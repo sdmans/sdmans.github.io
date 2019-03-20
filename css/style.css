@@ -434,9 +434,15 @@ footer {
   text-align: center;
 }
 
+.skill-container {
+  /* border: 1px solid black; */
+  height: 500px;
+  /* border-radius: 10px; */
+}
+
 .skill-list > li {
   font-size: 18px;
-  padding-bottom: 0px 0px 20px 0px;
+  padding: 0px 10px 0px 10px;
   margin-bottom: 20px;
 }
 
