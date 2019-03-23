@@ -437,6 +437,7 @@ footer {
 .skill-container {
   /* border: 1px solid black; */
   height: 500px;
+  margin-bottom: 10px;
   /* border-radius: 10px; */
 }
 
