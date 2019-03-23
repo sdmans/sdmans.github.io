@@ -437,7 +437,6 @@ footer {
 .skill-container {
   /* border: 1px solid black; */
   height: 500px;
-  margin-bottom: 10px;
   /* border-radius: 10px; */
 }
 
@@ -692,7 +691,7 @@ Large devices (large desktops, 1200px and up)
   }
 
   .skill-list > li {
-    padding: 0px 10px 20px 10px;
+    padding: 0px 10px 0px 10px;
   }
 
   .port-item {
