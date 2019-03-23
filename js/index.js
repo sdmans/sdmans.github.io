@@ -14,6 +14,7 @@ $(document).ready(function(){
   const $myTitle = $('p.my-title');
   const $specialtyList = $('ul.specialty-list');
   const $socialList = $('ul.social-menu');
+  const $aboutpara = $('p.about-paragraph');
 
 /* Find a way to display work items at a delay */
 /* Name, Title, Specialties, an Social Menu will fade in at the beginning with a timed interval */
@@ -24,6 +25,7 @@ const displayElements = function () {
   $myTitle.delay(600).fadeIn();
   $specialtyList.delay(1000).fadeIn();
   $socialList.delay(1500).fadeIn();
+  $aboutpara.delay(2000).fadeIn();
 }
 
 displayElements();

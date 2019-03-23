@@ -32,6 +32,20 @@ a {
   color: #00749b;
 }
 
+p.about-paragraph {
+  display: none;
+  padding-top: 20px;
+}
+
+.about-anchor {
+  color: white;
+  font-size: 44px;
+}
+
+.about-anchor:hover {
+  color: #00749b;
+}
+
 /* Anchor Tag Styles end */
 
 p {
@@ -223,7 +237,7 @@ span.dot {
   /* text-decoration: underline dotted; */
 }
 
-#portfolio, #skills, #experience, #contact {
+#about, #skills, #portfolio, #experience, #contact {
   height: 40px;
 }
 
