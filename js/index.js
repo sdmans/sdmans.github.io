@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  console.log('Document is ready');
+  // console.log('Document is ready');
   const navButton = $('button.navbar-toggle');
   const collapsingDiv = $('div.navbar-collapse');
   const input = $('div.input-group > input, textarea');
@@ -90,14 +90,14 @@ anchorLinks.fadeOut();//Links fade out at the beginning
 /* Create a function that displays shortcut anchor links */
  shortcutBtn.click(function() {
    if (shortcutBtn.hasClass('begone-anchors')) {
-     console.log("Fading Out")
-     console.log(shortcutBtn.innerText)
+    //  console.log("Fading Out")
+    //  console.log(shortcutBtn.innerText)
      shortcutBtn.innerText = "Try a shortcut!"
      anchorLinks.fadeOut();
      shortcutBtn.removeClass('begone-anchors');
 
    } else {
-     console.log('Fading in');
+    //  console.log('Fading in');
      anchorLinks.fadeIn();
      shortcutBtn.toggleClass('begone-anchors');
    }
@@ -119,7 +119,7 @@ anchorLinks.fadeOut();//Links fade out at the beginning
  /* Prevent contact form from resetting and log message for now */
 contactForm.submit(function(e){
   e.preventDefault();
-  console.log('Submitting form...');
+  // console.log('Submitting form...');
   /* Stores values to message object and console log it */
   const message = {
     name: contactForm[0].elements[0].value, 
@@ -128,7 +128,7 @@ contactForm.submit(function(e){
     message: contactForm[0].elements[3].value
   };
 
-  console.log(message);
+  // console.log(message);
 
 })
 
