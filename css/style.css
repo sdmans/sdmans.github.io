@@ -12,7 +12,7 @@ html {
 
 h2 {
   font-size: 36px;
-  margin: 10;
+  margin: 10px;
 }
 
 /* Anchor Tag Styles */
@@ -60,9 +60,7 @@ ul {
 hr.divider {
   width: 60%;
   height: 1px;
-  /* Fallbacks for css. Source: https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
-  /* border-color: #375c96;
-  background-color: #375c96; */
+  /* Fallbacks for CSS. Source: https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
   border-color: #DCDCDC;
   background-color: #DCDCDC;
   /* margin: 0px 10px 0px 10px; */
@@ -478,6 +476,7 @@ p.presentation-item > a:hover {
 hr.project-divider {
   /* height: 1px; */
   width: 70%;
+  /* Fallbacks for CSS. Source: https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
   border-color: #DCDCDC;
   background-color: #DCDCDC;
   padding: 0;
@@ -535,12 +534,6 @@ ul.list-group > li > p.work-title {
   /* border-bottom: 1px solid black; */
 }
 
-/* For volunteer work and courses */
-ul.list-group > li > span.work-title {
-  /* font-weight: bold; */
-  font-weight: 520;
-  font-size: 18px;
-}
 /* Styles for content for each position */
 .date {
   font-size: 16px;
