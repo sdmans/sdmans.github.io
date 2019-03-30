@@ -83,11 +83,6 @@ div.container-fluid {
   /* color: white; */
 }
 
-.container.content {
-  /* max-width: 1200px;
-  margin: 0 auto; */
-}
-
 .content > * {
  text-align: center;
 }
@@ -298,14 +293,6 @@ ul.social-menu > li.social-menu-items:hover {
 .fab {
   font-size: 24px;
   /* font-weight: normal; */
-}
-
-i.fab:hover {
-  /* font-size: 24px;
-  font-weight: bold; */
-  /* color: #013220 */
-  /* color: #000099; */
-  /* color: blue; */
 }
 
 ul.social-icons > li {
