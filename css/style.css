@@ -324,6 +324,9 @@ margin-right: 0px;
 .project-img {
   height: 200px;
   width: 280px;
+  -moz-box-shadow: 3px 3px 4px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 4px 3px #ccc;
+  box-shadow: 3px 3px 4px 3px #ccc;
 }
 
 .project-img-container {
