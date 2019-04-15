@@ -18,6 +18,7 @@ h2 {
 /* Anchor Tag Styles */
 a {
   color: black;
+  /* color: #375c96; */
   /* color: #3c3c95; */
   /* color: #37b289; */
 }
@@ -421,8 +422,13 @@ footer {
 }
 
 .micro > p > a {
-  color: #37b289;
+  color: #375c96;
   font-weight: bold;
+}
+
+.micro > p > a:hover {
+  text-decoration: none;
+  color: #00749b;
 }
 
 .about-text {
@@ -533,9 +539,17 @@ ul.list-group > li.work {
 ul.list-group > li > p.work-title {
   font-size: 20px;
   font-weight: bold;
-  
-  /* border-bottom: 1px solid black; */
 }
+
+ul.list-group > li > p.work-title > a {
+  color: #375c96;
+}
+
+ul.list-group > li > p.work-title > a:hover {
+  text-decoration: none;
+  color: #00749b;
+}
+
 
 /* Styles for content for each position */
 .date {
