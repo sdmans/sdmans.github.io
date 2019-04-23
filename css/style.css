@@ -87,9 +87,10 @@ div.container-fluid {
 }
 
 .myself {
-  border-radius: 50%;
   width: 180px;
   height: 180px;
+  border-radius: 50%;
+  border: 3px solid white;
 }
 
 .description-container {
