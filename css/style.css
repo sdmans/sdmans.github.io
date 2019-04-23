@@ -434,7 +434,7 @@ footer {
 
 .about-text {
   /* color: teal; */
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 56px 10px 56px;
 }
 
@@ -761,7 +761,6 @@ Large devices (large desktops, 1200px and up)
     width: 160px;
     height: 160px;
     padding: 0px;
-    /* margin-top: 20px; */
   }
 
   .description-container {
