@@ -270,6 +270,19 @@ article.flex-container {
   flex-wrap: nowrap;
 }
 
+article.tech-flex-container {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+div.tech-row-container {
+  display: flex;
+}
+
 div.technology-icon-container {
   height: 220px;
   width: 220px;
@@ -683,11 +696,20 @@ Large devices (large desktops, 1200px and up)
     align-items: center;
   }
 
+  div.tech-row-container {
+    flex-direction: column;
+    margin: 0px 5px 0px 5px;
+  }
+
   div.technology-icon-container {
-    height: 180px;
-    width: 180px;
-    border: 1px solid #D3D3D3;
     margin: 10px 0px 10px 0px;
+  }
+
+  /* div.technology-icon-container {
+    height: 180px;
+    width: 160px;
+    border: 1px solid #D3D3D3;
+    margin: 5px;
     padding: 20px;
   }
   
@@ -696,7 +718,7 @@ Large devices (large desktops, 1200px and up)
     width: auto;
     max-height: 120px;
     max-width: 120px;
-  }
+  } */
 
 
   /* Styles for mobile view technology icon container end */
@@ -723,6 +745,10 @@ Large devices (large desktops, 1200px and up)
     margin-right: -140px;
   }
 
+  div.tech-row-container {
+    margin: 10px 5px 10px 5px;
+  }
+
 }
 
 /* Custom media query for social icons */
@@ -732,6 +758,26 @@ Large devices (large desktops, 1200px and up)
     margin: 0px 0px 0px 0px;
     padding-left: 40px;
   }
+
+  div.technology-icon-container {
+    height: 180px;
+    width: 160px;
+    border: 1px solid #D3D3D3;
+    margin: 5px 4px 5px 4px;
+    padding: 20px;
+  }
+  
+  img.technology-icon {
+    height: auto;
+    width: auto;
+    max-height: 120px;
+    max-width: 120px;
+  }
+
+  div.tech-row-container {
+    margin: 0px 0px 0px 0px;
+  }
+
 }
 
 @media (max-width: 768px) {
