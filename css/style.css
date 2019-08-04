@@ -106,7 +106,7 @@ div.container-fluid {
 ul.specialty-list {
   /* Tied to jQuery Fade In */
   margin: 10px;
-  padding: 0px;
+  padding: 10px;
   display: none;
 }
 
@@ -118,9 +118,20 @@ li.my-specialty {
   padding-right: 6px;
 }
 
-li.my-specialty:not(:first-child) {
-  border-left: 1px solid white;
-  padding-left: 10px;
+.glyphicon-envelope {
+  top: 4px;
+}
+
+.glyphicon-globe {
+  top: 3px;
+}
+
+.contact-link {
+  color: #ffffff;
+}
+
+.contact-link:hover {
+  color: white;
 }
 
 span.dot {
@@ -202,35 +213,6 @@ span.dot {
 
 
 /* Links to sections of main page with heights so that content appears correctly */
-
-.shortcuts {
-  padding: 20px 20px;
-  text-align: center;
-}
-
-.shortcuts > button.anchor-btn {
-  font-weight: bold;
-  font-size: 18px;
-  height: 50px;
-  width: 170px;
-  margin: 10px 0px 10px 0px;
-}
-
-.shortcuts > p {
-  padding: 10px 0px 24px 0px;
-}
-
-.shortcuts > p > a {
-  font-size: 18px;
-  color: #4b4f4f;
-}
-
-.shortcuts > p > a:hover {
-  text-decoration: none;
-  font-weight: bold;
-  /* color: #013220; */
-  /* text-decoration: underline dotted; */
-}
 
 #about, #skills, #portfolio, #experience, #contact {
   height: 40px;
@@ -590,62 +572,11 @@ li.work-items {
 
 /* Experience element styles end here */
 
-
-/* Contact Form Styles */
-
-.contact {
-  font-size: 18px;
-}
-
-.contact-form {
-  /* border: 1px solid blue; */
-  width: 90%;
-  margin: 0 auto;
-}
-
-section.contact > label, input, textarea {
-  display: block;
-}
-
-section.contact > input, textarea {
-  color: black;
-}
-
-label {
-  margin-top: 10px;
-}
-
-.input-group {
-  margin: 0 auto;
-}
-
-.input-group > input {
-  text-align: center;
-  width: 400px;
-  height: 42px;
-  color: black;
-}
-
-textarea {
-  text-align: center;
-  height: 200px;
-  margin-bottom: 20px;
-}
-
-.form-button {
-  width: 120px;
-  height: 40px;
-  font-size: 16px;
-}
-
-/* Contact form styles end */
-
 /* Copyright Style */
 .copyright {
-  border-top: 1px solid white;
   text-align: center;
-  padding: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: white;
 }
 
@@ -690,6 +621,10 @@ Large devices (large desktops, 1200px and up)
 
 /* For width up to 992px */
 @media (max-width: 992px) {
+
+  ul.specialty-list > li:first-of-type {
+    margin-bottom: 20px;
+  }
 
   ul.social-menu {
     margin-top: 120px;
@@ -745,14 +680,6 @@ Large devices (large desktops, 1200px and up)
     font-size: 20px;
   }
 
-  .shortcuts > p {
-    padding: 16px 0px 16px 0px;
-  }
-
-  .shortcuts > h3 {
-    margin-bottom: 16px;
-  }
-
   .sub-header {
     padding: 0px 20px 0px 20px;
   }
@@ -771,11 +698,7 @@ Large devices (large desktops, 1200px and up)
     padding-top: 22px;
   }
 
-  li.my-specialty:not(:first-child) {
-    border: none;
-    display: block;
-    padding-top: 10px;
-  }
+  
 
   ul.social-icons > li {
     padding-top: 40px;

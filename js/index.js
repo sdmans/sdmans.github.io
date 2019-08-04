@@ -3,8 +3,6 @@ $(document).ready(function(){
   const navButton = $('button.navbar-toggle');
   const collapsingDiv = $('div.navbar-collapse');
   const input = $('div.input-group > input, textarea');
-  const shortcutBtn = $('button.anchor-btn');
-  const anchorLinks = $('p.anchor');
   const fixedLinkTop = $('a.fixed-top');
   const introSection = $('section.intro');
   const contactForm = $('.contact-form');
@@ -69,8 +67,6 @@ displayElements();
   /* Get Work History to display based on window position. The position seems to be 4397 according to the log above. */
 
 
-anchorLinks.fadeOut();//Links fade out at the beginning
-
  /* When user scrolls, the nav tab disappears */
  navButton.click(function(){
    const changeClass = function(){
@@ -86,22 +82,6 @@ anchorLinks.fadeOut();//Links fade out at the beginning
     $(window).scroll(changeClass)
 
  })//navButton Click event ends
-
-/* Create a function that displays shortcut anchor links */
- shortcutBtn.click(function() {
-   if (shortcutBtn.hasClass('begone-anchors')) {
-    //  console.log("Fading Out")
-    //  console.log(shortcutBtn.innerText)
-     shortcutBtn.innerText = "Try a shortcut!"
-     anchorLinks.fadeOut();
-     shortcutBtn.removeClass('begone-anchors');
-
-   } else {
-    //  console.log('Fading in');
-     anchorLinks.fadeIn();
-     shortcutBtn.toggleClass('begone-anchors');
-   }
- })//shortcut anchor link display function ends here.
 
 
 
