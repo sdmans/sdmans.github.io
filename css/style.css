@@ -339,10 +339,71 @@ p.technology-name {
 /* Social Media Ends */
 
 /* Porfolio Section CSS */
+/* New portfolio styles start here */
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+div.item-responsive-column {
+  display: flex;
+}
+
+.project-item-container {
+  height: 300px;
+  width: 350px;
+  margin: 10px;
+  padding: 16px;
+  text-align: left;
+  /* border: 1px solid pink; */
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: black;
+}
+
+.project-image {
+  height: 200px;
+  width: 320px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 3px 3px 4px 3px #ccc;
+  box-shadow: 3px 3px 4px 3px #ccc;
+}
+
+p.project-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+ul.project-tool-list {
+  display: block;
+  padding-left: 0px;
+  margin-top: 4px;
+}
+
+.project-tool-list > li {
+  display: inline-block;
+  color: black;
+  font-size: 12px;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+li.project-tool {
+  background-color: #d9edf7;
+}
+
+
+/* New portfolio styles end here */
+
 
 article.portfolio-article {
-margin-left: 0px;
-margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .project-item {
@@ -705,23 +766,7 @@ Large devices (large desktops, 1200px and up)
     margin: 10px 0px 10px 0px;
   }
 
-  /* div.technology-icon-container {
-    height: 180px;
-    width: 160px;
-    border: 1px solid #D3D3D3;
-    margin: 5px;
-    padding: 20px;
-  }
-  
-  img.technology-icon {
-    height: auto;
-    width: auto;
-    max-height: 120px;
-    max-width: 120px;
-  } */
-
-
-  /* Styles for mobile view technology icon container end */
+  /* Styles for mobile view technology icon container ends */
 
   .skill-list > li {
     padding: 0px 10px 0px 10px;
@@ -738,6 +783,14 @@ Large devices (large desktops, 1200px and up)
   .work-description {
     padding: 0px 14px 0px 14px;
   }
+
+  /* New project styles go here */
+
+  div.item-responsive-column {
+    flex-direction: column;
+  }
+
+  /* New project styles end here */
 }
 /* For views between 992 and 1200px*/
 @media (max-width: 992px) and (min-width:768px)  {
