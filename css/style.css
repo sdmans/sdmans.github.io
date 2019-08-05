@@ -71,6 +71,17 @@ hr.divider {
   margin: 0 auto;
 }
 
+hr.white-divider {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  
+}
+
 header {
   padding-top: 30px;
 }
@@ -344,7 +355,7 @@ p.technology-name {
 .project-container {
   display: flex;
   justify-content: center;
-  display: none;
+  flex-wrap: wrap;
 }
 
 div.item-responsive-column {
@@ -355,7 +366,7 @@ div.item-responsive-column {
   height: 300px;
   width: 350px;
   margin: 10px;
-  padding: 16px;
+  padding: 12px;
   text-align: left;
   /* border: 1px solid pink; */
   border-radius: 10px;
@@ -397,6 +408,28 @@ li.project-tool {
   background-color: #d9edf7;
 }
 
+li.demo-link-container {
+  border: none;
+}
+
+li > a.demo-link {
+  margin: 0px 6px;
+  padding: 4px 1px 4px 1px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #fff;
+  /* background: #28a745; */
+  background: #6aaf6a
+}
+
+li > a.demo-link:hover {
+  background: #28a745;
+  text-decoration: none;
+}
+
+li > a.demo-link:focus {
+  text-decoration: none;
+}
 
 /* New portfolio styles end here */
 
@@ -404,6 +437,7 @@ li.project-tool {
 article.portfolio-article {
   margin-left: 0px;
   margin-right: 0px;
+  display: none;
 }
 
 .project-item {
@@ -561,6 +595,7 @@ footer {
 div.thumbnail {
   border: none;
 }
+
 h3.project-title {
   padding-bottom: 10px;
 }
@@ -734,6 +769,12 @@ Large devices (large desktops, 1200px and up)
 @media(max-width: 1260px) and (min-width: 1161px) {
   .project-img {
     width: 260px;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-item-container {
+    margin: 20px 40px;
   }
 }
 
