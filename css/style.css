@@ -126,11 +126,19 @@ li.my-specialty {
   top: 3px;
 }
 
+.glyphicon-circle-arrow-down {
+  top: 3px;
+}
+
 .contact-link {
   color: #ffffff;
 }
 
 .contact-link:hover {
+  color: #ffffff;
+}
+
+.contact-link:focus {
   color: #ffffff;
 }
 
@@ -151,7 +159,7 @@ span.dot {
   display: none;
   font-size: 24px;
   font-weight: normal;
-  padding: 20px;
+  padding: 20px 20px 2px 20px;
 }
 
 .motivator {
@@ -222,7 +230,6 @@ span.dot {
 
 /* New Social Menu Styles */
 ul.social-menu {
-  /* margin-top: 120px; */
   padding: 0px;
   display: none;
 }
@@ -249,7 +256,7 @@ ul.social-menu > li.social-menu-items > a > * {
 }
 
 ul.social-menu > li.social-menu-items:hover {
-  background-color: #00749b;
+  background-color: #00749b;;
   cursor: pointer;
   /* background-color: #375c96; */
   /* background-color: #add8e6 */
@@ -257,6 +264,17 @@ ul.social-menu > li.social-menu-items:hover {
   width: 62px; */
   /* padding: 14px; */
   /* font-weight: bold; */
+}
+
+a.resume-download {
+  font-size: 18px;
+  padding: .5em;
+  border-radius: 10px;
+  color: black;
+}
+
+a.resume-download:hover {
+  text-decoration: none;
 }
 
 /* Styles for Skills and technologies start here */
@@ -646,9 +664,9 @@ Large devices (large desktops, 1200px and up)
     padding-right: 10px;
   }
 
-  ul.social-menu {
+  /* ul.social-menu {
     margin: 0px;
-  }
+  } */
 }
 
 @media(max-width: 1260px) and (min-width: 1161px) {
@@ -660,12 +678,12 @@ Large devices (large desktops, 1200px and up)
 /* For width up to 992px */
 @media (max-width: 992px) {
 
-  ul.specialty-list > li:first-of-type {
-    margin-bottom: 20px;
+  ul.specialty-list > li {
+    margin-bottom: 14px;
   }
 
   ul.social-menu {
-    margin-top: 120px;
+    margin-top: 136px;
   }
 
   article.row {
@@ -778,10 +796,6 @@ Large devices (large desktops, 1200px and up)
 
   .description-container {
     height: 150px;
-  }
-
-  ul.social-menu {
-    padding-top: 22px;
   }
 
   hr.divider {
