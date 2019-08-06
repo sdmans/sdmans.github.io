@@ -363,12 +363,10 @@ div.item-responsive-column {
 }
 
 .project-item-container {
-  height: 300px;
-  width: 350px;
+  height: 320px;
+  width: 340px;
   margin: 10px;
-  padding: 12px;
-  text-align: left;
-  /* border: 1px solid pink; */
+  padding-top: 8px;
   border-radius: 10px;
   background-color: #ffffff;
   color: black;
@@ -376,10 +374,10 @@ div.item-responsive-column {
 
 .project-image {
   height: 200px;
-  width: 320px;
+  width: 310px;
   border: 1px solid #e7e7e7;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   -webkit-box-shadow: 3px 3px 4px 3px #ccc;
   box-shadow: 3px 3px 4px 3px #ccc;
 }
@@ -387,12 +385,13 @@ div.item-responsive-column {
 p.project-title {
   font-weight: bold;
   font-size: 14px;
+  text-decoration: underline;
 }
 
 ul.project-tool-list {
   display: block;
   padding-left: 0px;
-  margin-top: 4px;
+  margin-top: 12px;
 }
 
 .project-tool-list > li {
