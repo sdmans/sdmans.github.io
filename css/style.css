@@ -365,7 +365,7 @@ div.item-responsive-column {
 .project-item-container {
   height: 320px;
   width: 340px;
-  margin: 10px;
+  margin: 20px;
   padding-top: 8px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -723,6 +723,8 @@ li.work-items {
 }
 
 /* Experience element styles end here */
+/* Footer element styles */
+
 
 /* Copyright Style */
 .copyright {
@@ -731,6 +733,31 @@ li.work-items {
   margin-bottom: 20px;
   color: white;
 }
+
+ul.footer-social {
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+ul.footer-social > li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a.footer-link {
+  color: #ffffff;
+}
+
+a.footer-link:hover {
+  color: #00749b;
+}
+
+.footer-icon {
+  font-size: 30px;
+}
+
+/* Footer Element Styles end */
 
 /* CSS for User interaction */
 li.nav-item:hover {
