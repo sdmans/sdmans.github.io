@@ -309,7 +309,7 @@ div.technology-icon-container {
   border: 1px solid #D3D3D3;
   border-radius: 10px;
   margin: 0px 20px 0px 20px;
-  padding: 20px;
+  padding: 14px;
   /* background: #add8e6; */
 }
 
@@ -879,7 +879,7 @@ Large devices (large desktops, 1200px and up)
     width: 160px;
     border: 1px solid #D3D3D3;
     margin: 5px 4px 5px 4px;
-    padding: 20px;
+    padding: 14px;
   }
   
   img.technology-icon {
